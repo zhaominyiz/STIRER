@@ -66,6 +66,13 @@ Final Acc 73.91 Final PSNR 22.31 SSIM 0.7650
 ```
 ## Citation
 ```
+@inproceedings{zhao2023stirer,
+  title={STIRER: A Unified Model for Low-Resolution Scene Text Image Recovery and Recognition},
+  author={Zhao, Minyi and Xuyang, Shijie and Guan, Jihong and Zhou, Shuigeng},
+  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},
+  pages={7530--7539},
+  year={2023}
+}
 ```
 
 Feel free to contact me if you have any questions :)
