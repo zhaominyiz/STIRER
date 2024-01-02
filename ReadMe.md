@@ -43,26 +43,25 @@ You will obtain a result as follows:
 ```bash
 ----------------<Evaluation>----------------
 {1: '0', 2: '1', 3: '2', 4: '3', 5: '4', 6: '5', 7: '6', 8: '7', 9: '8', 10: '9', 11: 'a', 12: 'b', 13: 'c', 14: 'd', 15: 'e', 16: 'f', 17: 'g', 18: 'h', 19: 'i', 20: 'j', 21: 'k', 22: 'l', 23: 'm', 24: 'n', 25: 'o', 26: 'p', 27: 'q', 28: 'r', 29: 's', 30: 't', 31: 'u', 32: 'v', 33: 'w', 34: 'x', 35: 'y', 36: 'z', 0: ''}
-Evaluating dataset/mydata/test/easy/
+Evaluating dataset/textzoom/test/easy/
 STEP 0 Acc 78.44 PSNR 22.62 SSIM 78.66
 STEP 1 Acc 82.09 PSNR 22.63 SSIM 79.60
 STEP 2 Acc 80.05 PSNR 23.08 SSIM 79.97
 STEP 3 Acc 87.89 PSNR 25.15 SSIM 87.41
-CRNN Acc 52.56
-Evaluating dataset/mydata/test/medium/
+CRNN Acc 52.63
+Evaluating dataset/textzoom/test/medium/
 STEP 0 Acc 66.19 PSNR 19.51 SSIM 59.73
-STEP 1 Acc 68.32 PSNR 19.42 SSIM 60.99
-STEP 2 Acc 69.03 PSNR 19.81 SSIM 61.93
+STEP 1 Acc 68.25 PSNR 19.42 SSIM 60.99
+STEP 2 Acc 68.96 PSNR 19.81 SSIM 61.93
 STEP 3 Acc 74.20 PSNR 20.66 SSIM 68.58
 CRNN Acc 31.61
-Evaluating dataset/mydata/test/hard/
-STEP 0 Acc 48.62 PSNR 20.09 SSIM 65.53
+Evaluating dataset/textzoom/test/hard/
+STEP 0 Acc 48.70 PSNR 20.09 SSIM 65.53
 STEP 1 Acc 51.53 PSNR 19.94 SSIM 66.57
-STEP 2 Acc 51.23 PSNR 20.42 SSIM 68.12
+STEP 2 Acc 51.15 PSNR 20.42 SSIM 68.12
 STEP 3 Acc 59.64 PSNR 21.12 SSIM 73.50
-CRNN Acc 27.48
-Avg CRNN Acc 38.10
-Final Acc 73.91 Final PSNR 22.31 SSIM 0.7650
+CRNN Acc 27.55
+Avg CRNN Acc 38.14
 ```
 ## Citation
 ```
