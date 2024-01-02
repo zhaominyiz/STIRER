@@ -35,7 +35,7 @@ python3 train_ft.py
 ```
 
 ## Step3. Model evaluation
-You can try our released checkpoint (STIRER_Final_Release.pth) and run the evaluation code:
+You can try our released checkpoint (STIRER_Final_Release.pth at [here](https://github.com/zhaominyiz/STIRER/releases/tag/basic)) and run the evaluation code:
 ```bash
 python3 test.py
 ```
