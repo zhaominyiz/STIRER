@@ -212,19 +212,19 @@ class LRSTR_collect_fn(object):
         # 30 + 1 plus eos
         # label_ce = None
         label_ce = torch.zeros((images_hr.size(0),31))
-        # sum_v = 0
-        # if self.train:
-        #     for idx, v in enumerate(length_tensors.tolist()):
-        #         try:
-        #             label_ce[idx,0:v] = label_tensors[sum_v:(sum_v+v)]
-        #         except:
-        #             print('v=',v,label_strs[idx])
-        #             os._exit(233)
-        #         sum_v += v
-        #         # add eos
-        #         label_ce[idx,v] = self.args['charset']
-        #         for j in range(15-v):
-        #             label_ce[idx,v+j] = 0
+        sum_v = 0
+        if self.train:
+            for idx, v in enumerate(length_tensors.tolist()):
+                try:
+                    label_ce[idx,0:v] = label_tensors[sum_v:(sum_v+v)]
+                except:
+                    print('v=',v,label_strs[idx])
+                    os._exit(233)
+                sum_v += v
+                # add eos
+                label_ce[idx,v] = self.args['charset']
+                for j in range(15-v):
+                    label_ce[idx,v+j] = 0
         label_ce = label_ce.long()
         # print(label_ce)
         cls_gt = torch.LongTensor(cls_gt)
